@@ -19,6 +19,9 @@ const HeaderComponent = () => {
                             <a href="/products" className={styles.navLink}>MẪU THIẾT KẾ</a>
                         </li>
                         <li className={styles.navItem}>
+                            <Link to={`/service`} className={styles.navLink} >GÓI DỊCH VỤ</Link>
+                        </li>
+                        <li className={styles.navItem}>
                             <Link to={`/introduce`} className={styles.navLink} >GIỚI THIỆU</Link>
                         </li>
                     </ul>
